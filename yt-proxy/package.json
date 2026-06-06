@@ -1,0 +1,12 @@
+{
+  "name": "yt-proxy",
+  "version": "1.0.0",
+  "description": "YouTube Audio Proxy for KTV",
+  "main": "api/stream.js",
+  "scripts": {
+    "start": "node api/stream.js"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.14.4"
+  }
+}
